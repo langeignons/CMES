@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CMES - Équipe Sportive</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", sans-serif;
+      background-color: #0d0d0d;
+      color: #f2f2f2;
+    }
+    header {
+      background-color: #1a1a1a;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      color: #00ffff;
+    }
+    nav {
+      text-align: center;
+      margin-top: 10px;
+    }
+    nav a {
+      color: #00ffff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .highlight {
+      color: #00ffff;
+    }
+    footer {
+      background-color: #1a1a1a;
+      padding: 20px;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>CMES</h1>
+    <p>Club Multigaming Esport Sport</p>
+    <nav>
+      <a href="#about">À propos</a>
+      <a href="#team">Équipe</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>Qui sommes-nous ?</h2>
+    <p>
+      <span class="highlight">CMES</span> est une équipe dynamique mêlant <strong>esport</strong> et <strong>sport collectif</strong>. 
+      Fondée par des passionnés, notre objectif est de promouvoir la performance, l’esprit d’équipe, 
+      et le plaisir du jeu à tous les niveaux.
+    </p>
+  </section>
+
+  <section id="team">
+    <h2>Notre équipe</h2>
+    <p>
+      Nos membres viennent de divers horizons et sont unis par une passion commune : la compétition, que ce soit
+      sur les terrains ou dans les jeux vidéo.
+    </p>
+    <ul>
+      <li><strong>Codebrain</strong> - Fondateur et stratège</li>
+      <li><strong>Joss</strong> - Capitaine Esport</li>
+      <li><strong>Merconico</strong> - Joueur Pro Minecraft</li>
+      <li><strong>Crosne</strong> - Coach & Analyste</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Nous contacter</h2>
+    <p>
+      Pour toute demande de partenariat, recrutement ou collaboration :
+      <br /><br />
+      📧 <a href="mailto:cmes.contact@gmail.com">cmes.contact@gmail.com</a>
+      <br />
+      📱 Insta / Twitch : <strong>@CMES_Team</strong>
+    </p>
+  </section>
+
+  <footer>
+    © 2025 CMES - Tous droits réservés
+  </footer>
+</body>
+</html>
